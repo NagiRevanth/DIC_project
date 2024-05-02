@@ -5,7 +5,7 @@ import joblib
 # Function to load models and encoders
 def load_resources():
     model_path = "path/to/randomforest.pkl"  # Change to your actual path
-    encoder_path = "path/to/label_encoder.pkl"  # Change to your actual path
+    encoder_path = "label_encoder.pkl"  # Change to your actual path
     model = joblib.load(model_path)
     label_encoder = joblib.load(encoder_path)
     return model, label_encoder
